@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: #FFFFFF;
+}
+.container{
+    position: relative;
+  
+    width: 1178px;
+        margin: 0 auto; 
+        max-width: 1200px; 
+        padding: 0 7px; 
+        box-sizing: border-box;
+    }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo_banner{
+    position: relative;
+}
+section{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: -50px;
+}
+.arrow {
+    width: 48px;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    font-size: 30px; 
+    color: #FE9015; 
+    background-color: #FFFFFF; 
+    border-radius: 50%;
+    cursor: pointer; 
+}
+.arrow.right {
+    right: -30px;
+}
+.promotions {
+    margin-top: 100px;
+    position: relative;
+}
+.promotions .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.promotions .view-all {
+    position: absolute;
+    left: 1015px;
+    top: 0;
+    font-size: 16px;
+    color: #FE9015;
+    text-decoration: none;
+}
+.promotions .view-all:hover {
+    text-decoration: underline;
+}
+.card{
+    cursor: pointer;
+    width: 350px;
+    border-radius: 30px;
+    text-align: center;
+    background: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    cursor: pointer;
+    transition: .5s;
+}
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 25px;
+    flex-wrap: wrap;
+}
+.menu-container a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+}
+.menu-container a:hover {
+    color: #ff8c00;
+}
+ .search{
+    cursor: pointer;
+ }
+ .icon{
+    cursor: pointer;
+ }
+.logo-banner2{
+    margin-top: 100px;
+    margin-left: 2px;
+}
+.nav-arrow {
+    width: 48px;
+    position: absolute;    
+    top: 830px;
+    font-size: 30px; 
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 10px;
+    color: #FE9015;
+    cursor: pointer;
+    
+}
+.next-arrow {
+    right: -15px; 
+}
+
+
+h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+h2 {
+    font-size: 1.4em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+    text-align: justify;
+    font-style: italic;
+    color: #848992;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+    color: #848992;
+}
+
+li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+.footer {
+ background-color: #f9f9f9; 
+padding: 20px;
+text-align: center;
+ border-top: 1px solid #ccc; /* Chiziq */
+}
+ .footer .menu {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 15px;
+margin-bottom: 20px;
+}
+.footer .menu a {
+text-decoration: none;
+color: #333;
+font-size: 14px;
+}
+.footer .menu a:hover {
+    color: #ff8c00; 
+}
+
